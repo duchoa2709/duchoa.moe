@@ -16,6 +16,16 @@
     color: #00ccad;
 }
 
+.header .text-header
+{
+    margin: 0 6px;
+    color: #252525;
+}
+
+.text-header:hover
+{
+    color: #00ccad;
+}
 .header .bg-header {
     background-color: white;
 }
@@ -56,6 +66,10 @@
     border-radius: 10px;
 }
 
+.header .button a:hover
+{
+    background-color: #7f6ffc !important;
+}
 
 /* select */
 
@@ -72,8 +86,14 @@
     background-size: 50%;
     background-repeat: no-repeat;
 }
-
-
+.btn-mg
+{
+    margin-bottom: 80px;
+}
+.btn-mg:hover
+{
+    background-color: #7f6ffc;
+}
 /* col1 */
 
 .select .Property {
@@ -309,6 +329,11 @@
     border-radius: 10px;
 }
 
+.know .button:hover
+{
+    background-color: #252525;
+    color: #fff;
+}
 
 /* latest */
 
@@ -405,8 +430,10 @@
         margin-right: 5px;
     }
 }
-
-.col-4 {
-    flex: 0 0 auto;
-    width: 22.333333%;
+.link-sale:hover{
+    color:#00ccad ;
+}
+.tag:hover
+{
+    color: #5a5a5a;
 }
