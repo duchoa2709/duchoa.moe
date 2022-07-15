@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phan Duc Hoa_21211TT4819</title>
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/css/all.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <nav class="navbar navbar-expand-lg bg-header fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="./public/img/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link Active dropdown-toggle color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Home
+                            </a>
+                            <ul class="dropdown-menu" aria-label="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Agents</a></li>
+                                <li><a class="dropdown-item" href="#">Services</a></li>
+                                <li><a class="dropdown-item" href="#">Login</a></li>
+                                <li><a class="dropdown-item" href="#">Registration</a></li>
+                                <li><a class="dropdown-item" href="#">404</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Property</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle a" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                Page
+                            </a>
+                            <ul class="dropdown-menu" aria-label="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Agents</a></li>
+                                <li><a class="dropdown-item" href="#">Services</a></li>
+                                <li><a class="dropdown-item" href="#">Login</a></li>
+                                <li><a class="dropdown-item" href="#">Registration</a></li>
+                                <li><a class="dropdown-item" href="#">404</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Gallery
+                            </a>
+                            <ul class="dropdown-menu" aria-label="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Gallery Standard</a></li>
+                                <li><a class="dropdown-item" href="#">Gallery Alternative</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="text">
+                <h1>
+                    Luxury House
+                </h1>
+                <div>
+                    Estate - Real Estate & Property Joomia Template Of Poets Of Code
+                </div>
+                <div>
+                    Helix Ultimate & SP Page Builder Pro.
+                </div>
+                <div class="button">
+                    <a href="#">Know More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="select">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- <div class="text">Search Here</div> -->
+                    <div class="md-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Search Here</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <!-- <input type="text" class="input"> -->
+                    <!-- <div class="text Property">
+                        Property
+                        <br>
+                        <select name="" class="input-header">
+                            <option value="">All</option>
+                            <option value="">Colltage</option>
+                            <option value="">Villa</option>
+                            <option value="">Family House</option>
+                            <option value="">Townhouse</option>
+                            <option value="">Apartment</option>
+                        </select>
+                    </div> -->
+                    <div class="mb-3 Property">
+                        <label for="formGroupExampleInput" class="form-label">Property</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>All</option>
+                            <option value="1">Colltage</option>
+                            <option value="2">Villa</option>
+                            <option value="3">Family House</option>
+                            <option value="4">Townhouse</option>
+                            <option value="5">Apartment</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text">
+                        <!-- <div class="price">
+                            Price
+                            <br>
+                            <img src="./public/img/Capture.PNG" alt="divider">
+                        </div> -->
+                        <!-- <label for="customRange1" id="form-label">Price</label> -->
+                        <label for="Price">Price</label>
+                        <input type="range" class="form-range" id="Price">
+                        <!-- <div class="from">
+                            From
+                            <br>
+                            <input type="text" class="input-col2">
+                        </div>
+                        <div class="to">
+                            To
+                            <br>
+                            <input type="text" class="input-col2">
+                        </div> -->
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput" class="form-label">From</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="0">
+                        </div>
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput2" class="form-label">To</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="750000">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mb-3 Property">
+                        <label for="formGroupExampleInput" class="form-label">Property</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>All</option>
+                            <option value="1">House for request</option>
+                            <option value="2">For Rent</option>
+                            <option value="3">For Sale</option>
+                        </select>
+                    </div>
+                    <div class="mb-3 Property">
+                        <label for="formGroupExampleInput" class="form-label">Property</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>All</option>
+                            <option value="1">Active</option>
+                            <option value="2">Offer</option>
+                            <option value="3">Contract</option>
+                            <option value="4">Closed</option>
+                            <option value="5">Withdrawn</option>
+                        </select>
+                    </div>
+                    <div class="d-grid gap-2 d-md-3">
+                        <button class="btn btn-primary btn-color" type="button">Search</button>
+                    </div>
+                    <!-- <div class="text">
+                        <div class="listing">
+                            Listing
+                            <br>
+                            <select name="" class="input-header">
+                                <option value="">All</option>
+                                <option value="">House For Request</option>
+                                <option value="">For Rent</option>
+                                <option value="">For Sale</option>
+                            </select>
+                        </div>
+                        <div class="listing-status">
+                            Listing Status
+                            <br>
+                            <select name="" class="input-header">
+                                <option value="">All</option>
+                                <option value="">Active</option>
+                                <option value="">Offer</option>
+                                <option value="">Contract</option>
+                                <option value="">Closed</option>
+                                <option value="">Withdrawn</option>
+                            </select>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- content -->
+    <div class="content">
+        <div class="container">
+
+            <div class="text_title">
+                <h1>NEWEST PROPERTIES</h1>
+                <img src="./public/img/Capture1.PNG" alt="divider">
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 344px;">
+                        <img src="./public/img/pp1.PNG" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="link-sale">Green Gables - The Estate</a>
+                            <div class="card-text">
+                                <i class="fa-solid fa-tag tag"></i> Family House
+                            </div>
+                            <p class="card-text">Taking transformation mapping and above all, create synergy. Funneling...
+                            </p>
+                            <div class="row">
+                                <div class="col"><i class="fa-solid fa-bed tag"></i>Bed:2</div>
+                                <div class="col"><i class="fa-solid fa-shower tag"></i>Bath:2</div>
+                                <div class="col"><i class="fa-solid fa-table-cells tag"></i>360 SF</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 344px;">
+                        <img src="./public/img/pp2.PNG" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="link-sale">Osowaw Boulevard</a>
+                            <div class="card-text">
+                                <i class="fa-solid fa-tag tag"></i> Cottage
+                            </div>
+                            <p class="card-text">Taking transformation mapping and above all, create synergy. Funneling...
+                            </p>
+                            <div class="row">
+                                <div class="col"><i class="fa-solid fa-bed tag"></i>Bed:4</div>
+                                <div class="col"><i class="fa-solid fa-shower tag"></i>Bath:4</div>
+                                <div class="col"><i class="fa-solid fa-table-cells tag"></i>4000 SF</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 344px;">
+                        <img src="./public/img/pp3.PNG" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="link-sale">Beaconsfield Estate</a>
+                            <div class="card-text">
+                                <i class="fa-solid fa-tag tag"></i> Apartment
+                            </div>
+                            <p class="card-text">Taking transformation mapping and above all, create synergy. Funneling...
+                            </p>
+                            <div class="row">
+                                <div class="col"><i class="fa-solid fa-bed tag"></i>Bed:3</div>
+                                <div class="col"><i class="fa-solid fa-shower tag"></i>Bath:4</div>
+                                <div class="col"><i class="fa-solid fa-table-cells tag"></i>2400 SF</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col item">
+                    <div class="if-sale">
+                        <img src="./public/img/119E4768-F816-1514-96DB-4851D59304D1_5_380_250_1_.jpg" alt="sale1"
+                            class="img-sale">
+                        <div class="if-sale2">
+                            <h3>
+                                Osowaw Boulevard
+                            </h3>
+                            <div>
+                                Family House
+                            </div>
+                            <p>Taking transformation mapping and above all, create synergy....</p>
+                            <div class="row">
+                                <div class="col">Bed:2</div>
+                                <div class="col">Bath:2</div>
+                                <div class="col">360 SF</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="col item">
+                    <div class="if-sale">
+                        <img src="./public/img/119E4768-F816-1514-96DB-4851D59304D1_5_380_250_1_.jpg" alt="sale1"
+                            class="img-sale">
+                        <div class="if-sale2">
+                            <h3>
+                                Osowaw Boulevard
+                            </h3>
+                            <div>
+                                Family House
+                            </div>
+                            <p>Taking transformation mapping and above all, create synergy....</p>
+                            <div class="row">
+                                <div class="col">Bed:2</div>
+                                <div class="col">Bath:2</div>
+                                <div class="col">360 SF</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="col item">
+                    <div class="if-sale">
+                        <img src="./public/img/hanh.jpeg" alt="sale1" class="img-sale">
+                        <div class="if-sale2">
+                            <h3>
+                                Osowaw Boulevard
+                            </h3>
+                            <div>
+                                Family House
+                            </div>
+                            <p>Taking transformation mapping and above all, create synergy....</p>
+                            <div class="row">
+                                <div class="col">Bed:2</div>
+                                <div class="col">Bath:2</div>
+                                <div class="col">360 SF</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div> -->
+        </div>
+
+        <!--support-->
+        <div class="support">
+            <div class="row">
+                <div class="col">
+                    <div class="item">
+                        <img src="./public/img/1.png" alt="1" class="img-support">
+                        <h3 class="text">LIVE SUPPORT!</h3>
+                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer adipiscing erat eget risus.</div>
+                        <div class="hv text">Research Now</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item">
+                        <img src="./public/img/2.png" alt="1" class="img-support">
+                        <h3 class="text">SEARCH A HOME</h3>
+                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer adipiscing erat eget risus.</div>
+                        <div class="hv text">Compare Now</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item">
+                        <img src="./public/img/3.png" alt="1" class="img-support">
+                        <h3 class="text">SELECT BY LOCATION</h3>
+                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer adipiscing erat eget risus.</div>
+                        <div class="hv text">Research Now</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item">
+                        <img src="./public/img/4.png" alt="1" class="img-support">
+                        <h3 class="text">GET THE KEY</h3>
+                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer adipiscing erat eget risus.</div>
+                        <div class="hv text">Research Now</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- popula place -->
+        <div class="popula">
+            <div class="container">
+                <div class="popula-header">
+                    <h1 class="text">POPULAR PLACE</h1>
+                    <img src="./public/img/Capture1.PNG" alt="">
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="./public/img/8_600x600.jpg" alt="divider" class="popula-img">
+                    </div>
+                    <div class="col">
+                        <img src="./public/img/7_600x600.jpg" alt="divider" class="popula-img">
+                    </div>
+                    <div class="col">
+                        <img src="./public/img/9_600x600.jpg" alt="divider" class="popula-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <!-- <div class="container"> -->
+            <div class="bg-video">
+                <div class="title">
+                    Estate Offers Excellent
+                </div>
+                <div class="title">
+                    Combination Of Location & Quality
+                </div>
+                <img src="./public/img/Picture1.png" alt="#" class="img-video">
+                <br>
+                <img src="./public/img/Play.png" alt="#">
+                <div class="text">TAKE A FULL VIDEO TOUR</div>
+            </div>
+            <!-- </div> -->
+        </div>
+
+        <!-- FEATURED -->
+        <div class="featured">
+            <div class="container">
+                <div class="featured-header">
+                    <div class="popula-header">
+                        <h1 class="text">FEATURED PROPERTIES</h1>
+                        <img src="./public/img/Capture1.PNG" alt="">
+                    </div>
+                    <div class="sale1">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card" style="width: 344px;">
+                                    <img src="./public/img/pp10.PNG" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#" class="link-sale">Centennial Drive</a>
+                                        <p class="card-text">Taking transformation mapping and above all, create synergy....</p>
+                                        <div class="row">
+                                            <div class="col"><i class="fa-solid fa-bed tag"></i>Bed:5</div>
+                                            <div class="col"><i class="fa-solid fa-shower tag"></i>Bath:4</div>
+                                            <div class="col"><i class="fa-solid fa-table-cells tag"></i>3750 SF</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 344px;">
+                                    <img src="./public/img/pp5.PNG" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#" class="link-sale">Park Slope, Townhouse</a>
+                                        <p class="card-text">Taking transformation mapping and above all, create synergy. Funneling...
+                                        </p>
+                                        <div class="row">
+                                            <div class="col"><i class="fa-solid fa-bed tag"></i>Bed:4</div>
+                                            <div class="col"><i class="fa-solid fa-shower tag"></i>Bath:6</div>
+                                            <div class="col"><i class="fa-solid fa-table-cells tag"></i>2750 SF</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 344px;">
+                                    <img src="./public/img/pp6.PNG" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#" class="link-sale">Beaconsfield Estate</a>
+                                        <p class="card-text">Taking transformation mapping and above all, create synergy. Funneling...
+                                        </p>
+                                        <div class="row">
+                                            <div class="col"><i class="fa-solid fa-bed tag"></i>Bed:3</div>
+                                            <div class="col"><i class="fa-solid fa-shower tag"></i>Bath:4</div>
+                                            <div class="col"><i class="fa-solid fa-table-cells tag"></i>2400 SF</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="row">
+                            <div class="col item">
+                                <div class="if-sale">
+                                    <img src="./public/img/119E4768-F816-1514-96DB-4851D59304D1_5_380_250_1_.jpg"
+                                        alt="sale1" class="img-sale">
+                                    <div class="if-sale2">
+                                        <h3>
+                                            Osowaw Boulevard
+                                        </h3>
+                                        <div>
+                                            Family House
+                                        </div>
+                                        <p>Taking transformation mapping and above all, create synergy....</p>
+                                        <div class="row">
+                                            <div class="col">Bed:2</div>
+                                            <div class="col">Bath:2</div>
+                                            <div class="col">360 SF</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                            <div class="col item">
+                                <div class="if-sale">
+                                    <img src="./public/img/119E4768-F816-1514-96DB-4851D59304D1_5_380_250_1_.jpg"
+                                        alt="sale1" class="img-sale">
+                                    <div class="if-sale2">
+                                        <h3>
+                                            Osowaw Boulevard
+                                        </h3>
+                                        <div>
+                                            Family House
+                                        </div>
+                                        <p>Taking transformation mapping and above all, create synergy....</p>
+                                        <div class="row">
+                                            <div class="col">Bed:2</div>
+                                            <div class="col">Bath:2</div>
+                                            <div class="col">360 SF</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                            <div class="col item">
+                                <div class="if-sale">
+                                    <img src="./public/img/hanh.jpeg" alt="sale1" class="img-sale">
+                                    <div class="if-sale2">
+                                        <h3>
+                                            Osowaw Boulevard
+                                        </h3>
+                                        <div>
+                                            Family House
+                                        </div>
+                                        <p>Taking transformation mapping and above all, create synergy....</p>
+                                        <div class="row">
+                                            <div class="col">Bed:2</div>
+                                            <div class="col">Bath:2</div>
+                                            <div class="col">360 SF</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div> -->
+                    </div>
+                    <div class="sale2">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card" style="width: 344px;">
+                                    <img src="./public/img/pp7.PNG" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#" class="link-sale">Osowaw Boulevard</a>
+                                        <p class="card-text">Taking transformation mapping and above all, create synergy....</p>
+                                        <div class="row">
+                                            <div class="col"><i class="fa-solid fa-bed tag"></i>Bed:4</div>
+                                            <div class="col"><i class="fa-solid fa-shower tag"></i>Bath:8</div>
+                                            <div class="col"><i class="fa-solid fa-table-cells tag"></i>4000 SF</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 344px;">
+                                    <img src="./public/img/pp8.PNG" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#" class="link-sale">Darlington, NYC Mansion</a>
+                                        <p class="card-text">Taking transformation mapping and above all, create synergy. Funneling...
+                                        </p>
+                                        <div class="row">
+                                            <div class="col"><i class="fa-solid fa-bed tag"></i>Bed:2</div>
+                                            <div class="col"><i class="fa-solid fa-shower tag"></i>Bath:3</div>
+                                            <div class="col"><i class="fa-solid fa-table-cells tag"></i>6600 SF</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 344px;">
+                                    <img src="./public/img/pp9.PNG" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#" class="link-sale">Green Gables - The Estate</a>
+                                        <p class="card-text">Taking transformation mapping and above all, create synergy. Funneling...
+                                        </p>
+                                        <div class="row">
+                                            <div class="col"><i class="fa-solid fa-bed tag"></i>Bed:2</div>
+                                            <div class="col"><i class="fa-solid fa-shower tag"></i>Bath:2</div>
+                                            <div class="col"><i class="fa-solid fa-table-cells tag"></i>360 SF</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="row">
+                            <div class="col item">
+                                <div class="if-sale">
+                                    <img src="./public/img/119E4768-F816-1514-96DB-4851D59304D1_5_380_250_1_.jpg"
+                                        alt="sale1" class="img-sale">
+                                    <div class="if-sale2">
+                                        <h3>
+                                            Osowaw Boulevard
+                                        </h3>
+                                        <div>
+                                            Family House
+                                        </div>
+                                        <p>Taking transformation mapping and above all, create synergy....</p>
+                                        <div class="row">
+                                            <div class="col">Bed:2</div>
+                                            <div class="col">Bath:2</div>
+                                            <div class="col">360 SF</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                            <div class="col item">
+                                <div class="if-sale">
+                                    <img src="./public/img/119E4768-F816-1514-96DB-4851D59304D1_5_380_250_1_.jpg"
+                                        alt="sale1" class="img-sale">
+                                    <div class="if-sale2">
+                                        <h3>
+                                            Osowaw Boulevard
+                                        </h3>
+                                        <div>
+                                            Family House
+                                        </div>
+                                        <p>Taking transformation mapping and above all, create synergy....</p>
+                                        <div class="row">
+                                            <div class="col">Bed:2</div>
+                                            <div class="col">Bath:2</div>
+                                            <div class="col">360 SF</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                            <div class="col item">
+                                <div class="if-sale">
+                                    <img src="./public/img/hanh.jpeg" alt="sale1" class="img-sale">
+                                    <div class="if-sale2">
+                                        <h3>
+                                            Osowaw Boulevard
+                                        </h3>
+                                        <div>
+                                            Family House
+                                        </div>
+                                        <p>Taking transformation mapping and above all, create synergy....</p>
+                                        <div class="row">
+                                            <div class="col">Bed:2</div>
+                                            <div class="col">Bath:2</div>
+                                            <div class="col">360 SF</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- know more -->
+        <div class="know">
+            <h2 class="text">For more infomation about real solution details.<a href="#" class="button">KNOW MORE</a>
+            </h2>
+        </div>
+        <!-- latest -->
+        <div class="latest">
+            <div class="container">
+                <div class="latest-header">
+                    <div class="latest-header">
+                        <h1 class="text">LATEST POST</h1>
+                        <img src="./public/img/Capture1.PNG" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 344px;">
+                            <img src="./public/img/8_thumbnail.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#" class="link-sale">How to Prosper in Real Estate</a>
+                                <div class="month">
+                                    21 February 2021 Estate Agent
+                                </div>
+                                <p class="card-text">It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduct</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 344px;">
+                            <img src="./public/img/3_thumbnail.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#" class="link-sale">Many Important Brands Trusted Us</a>
+                                <div class="month">
+                                    21 February 2021 Estate Agent
+                                </div>
+                                <p class="card-text">It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduct</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 344px;">
+                            <img src="./public/img/2_thumbnail.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#" class="link-sale">Want To Succeed In Real Estate?</a>
+                                <div class="month">
+                                    21 February 2021 Estate Agent
+                                </div>
+                                <p class="card-text">It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduct</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="row">
+                    <div class="col item">
+                        <div class="if-sale">
+                            <img src="./public/img/119E4768-F816-1514-96DB-4851D59304D1_5_380_250_1_.jpg" alt="sale1"
+                                class="img-sale">
+                            <div class="if-sale2">
+                                <h3>
+                                    Osowaw Boulevard
+                                </h3>
+                                <div>
+                                    Family House
+                                </div>
+                                <p>Taking transformation mapping and above all, create synergy....</p>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col item">
+                        <div class="if-sale">
+                            <img src="./public/img/119E4768-F816-1514-96DB-4851D59304D1_5_380_250_1_.jpg" alt="sale1"
+                                class="img-sale">
+                            <div class="if-sale2">
+                                <h3>
+                                    Osowaw Boulevard
+                                </h3>
+                                <div>
+                                    Family House
+                                </div>
+                                <p>Taking transformation mapping and above all, create synergy....</p>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col item">
+                        <div class="if-sale">
+                            <img src="./public/img/hanh.jpeg" alt="sale1" class="img-sale">
+                            <div class="if-sale2">
+                                <h3>
+                                    Osowaw Boulevard
+                                </h3>
+                                <div>
+                                    Family House
+                                </div>
+                                <p>Taking transformation mapping and above all, create synergy....</p>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div> -->
+            </div>
+        </div>
+        <div class="group">
+            <div class="container">
+                <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./public/img/1 (1).png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./public/img/2 (1).png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./public/img/3 (1).png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./public/img/ (1).png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div> -->
+                <div class="row">
+                    <div class="col-md-3"><img src="./public/img/1(1).png" alt=""></div>
+                    <div class="col-md-3"><img src="./public/img/2(1).png" alt=""></div>
+                    <div class="col-md-3"><img src="./public/img/3(1).png" alt=""></div>
+                    <div class="col-md-3"><img src="./public/img/4(1).png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footter -->
+    <div class="footter">
+        <div class="container">
+            <div class="top">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="./public/img/logo_footer.png" alt="logo" class="logo-footter">
+                        <p class="text"><b style="color:#bababa;">Estate</b> is a Real Estate / Property joomla Template built with Helix Ultimate & SP Page Builder Pro.</p>
+                        <div class="text">23 Green Street, Melbourne</div>
+                        <div class="text">Estate@example.com</div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="topic">Latest Post</h3>
+                        <div class="location">
+                            <a href="#" class="link">How to Prosper in Real Estate</a>
+                            <div class="text">21 February 2021</div>
+                        </div>
+                        <div class="location">
+                            <a href="#" class="link">Modern Society, Best Investment</a>
+                            <div class="text">21 February 2021</div>
+                        </div>
+                        <div class="location">
+                            <a href="#" class="link">Luxury Home $15000 Lifetime</a>
+                            <div class="text">21 February 2021</div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-2">
+                        <h3 class="topic">Our Services</h3>
+                        <div class="tp text">Home Loan</div>
+                        <div class="tp text">Builders Perth</div>
+                        <div class="tp text">Real Estate Agents</div>
+                        <div class="tp text">Contact Support</div>
+                        <div class="tp text">Financial Support</div>
+                        <div class="tp text">Terms Of Use</div>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="topic">
+                            Photo Gallery
+                        </h3>
+                        <div class="img-end">
+
+                            <div class="up">
+                                <div class="row footer_gallery">
+                                    <div class="col-md-4 col-4">
+                                        <img src="./public/img/g1_thumb.jpg" alt="g1" class="img-fotter">
+                                    </div>
+                                    <div class="col-md-4 col-4">
+                                        <img src="./public/img/g2_thumb.jpg" alt="g1" class="img-fotter">
+                                    </div>
+                                    <div class="col-md-4 col-4">
+                                        <img src="./public/img/g3_thumb.jpg" alt="g1" class="img-fotter">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="up">
+                                <div class="row footer_gallery">
+                                    <div class="col-md-4 col-4">
+                                        <img src="./public/img/g1_thumb.jpg" alt="g1" class="img-fotter">
+                                    </div>
+                                    <div class="col-md-4 col-4">
+                                        <img src="./public/img/g2_thumb.jpg" alt="g1" class="img-fotter">
+                                    </div>
+                                    <div class="col-md-4 col-4">
+                                        <img src="./public/img/g3_thumb.jpg" alt="g1" class="img-fotter">
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="end">
+                <div class="text">
+                    2022 Estate. All Rights Reserved. Designed By Poets Of Code
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
